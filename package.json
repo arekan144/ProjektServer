@@ -10,6 +10,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "author": "",
+  "author": "Arkadiusz Sala 3id gr2",
   "license": "ISC"
 }
