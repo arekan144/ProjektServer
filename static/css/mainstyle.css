@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width:100%;
+    height:100%;
+    margin: 0;
+}
+
+div#napis{
+    color:rgb(214, 214, 214);
+    font-size: 8em;
+    font-weight: bold;
+    text-align: center;
+}
+
+div#menu {
+    background-color: rgb(52, 0, 173);
+    width: 100%;
+    height:10%;
+    
+    padding: 0.75% 5%; 
+}
+
+div#menu a, div#menuAN a {
+    margin: 0 1%; 
+    font-size: 1.3em;
+    color: white;
+}
+div#menuadmin {
+    background-color: rgb(255, 255, 163);
+    width: 100%;
+    height: 10%;
+    padding: 0.75% 5%; 
+}
+div#menuAN {
+    background-color: rgb(173, 0, 173);
+    width: 100%;
+    height:10%;
+    
+    padding: 0.75% 5%; 
+}
+div#menuadmin a {
+    margin: 0 1%; 
+    font-size: 1.3em;
+    color:rgb(0, 19, 59);
+}
+
+input[type=text], input[type=password], label, select {
+    margin: 4% 5% 1% 1%;
+    font-size: 1em;
+    width: 65%;
+    height: 1.2em;
+}
+input[type=radio] {
+    margin-left: 6%;
+    height: 1.2em;
+    width: 1.2em;
+}
+input[type=text], input[type=password], select {
+    border: 1px solid black;
+    background-color: rgb(245, 245, 245);
+    border-radius: 0;
+}
+input[type=checkbox]{
+    width: 16px;
+    height: 16px;
+    margin-left: 5%;
+}
+input[type=submit]{
+    
+    width: 30%;
+    height:10%;
+    margin: 5% auto;
+}
+form {
+    margin: 0 auto;
+    width: 30%;
+}

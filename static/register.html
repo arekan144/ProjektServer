@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zarejestruj się</title>
+    <link rel="stylesheet" href="css/mainstyle.css">
+    <script src="./js/script.js"></script>
+</head>
+
+<body onload="main();kowalskiOpcje();">
+    <div id="menu">
+        <a href="/">main</a>
+        <a href="/register">register</a>
+        <a href="/login">login</a>
+        <a href="/admin">admin</a>
+    </div>
+    <div id="napis">register page</div>
+    <form action="/register" method="POST">
+        <label for="login">Login: </label><input required type="text" name="login" id="login"><br />
+        <label for="password">Hasło:</label><input required type="password" name="password" id="password"><br />
+        <label for="wiek">Wiek:</label>
+        <select name="wiek" id="wiek">
+        </select></br>
+        <label for="uczen">uczeń?</label>
+        <input type="checkbox" name="uczen" id="uczen"><br />
+        <label for="plec">plec</label>
+        <label><input type="radio" name="plec" value="m" required>m</label>
+        <label><input type="radio" name="plec" value="k" required>k</label>
+        </label><br />
+        <input type="submit" value="SUBMIT">
+    </form>
+</body>
+
+</html>
